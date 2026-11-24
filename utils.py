@@ -19,7 +19,7 @@ FEATURES_PER_HAND = NUM_LANDMARKS * COORDS      # 63
 TOTAL_FEATURES = FEATURES_PER_HAND * 2          # 126
 SEQUENCE_LENGTH = 60                            # frames per recording
 CAMERA_WIDTH, CAMERA_HEIGHT, CAMERA_FPS = 1920, 720, 30   # requested; open_camera() falls back
-PHONE_WIDTH, PHONE_HEIGHT = 920, 1080           # size of the on-screen window
+PHONE_WIDTH, PHONE_HEIGHT = 480, 640           # size of the on-screen window
 
 # ------------------------------------------------------------------ hands
 HAND_TRACK_COLOR = (255, 200, 120)   # BGR light blue
