@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Signify",
+    "slug": "AslTranslator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#035FF2",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 220,
+          "backgroundColor": "#035FF2"
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Signify to use the camera to read your signs."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "51370e9e-8839-487e-9060-eddd2580472b"
+      }
+    },
+    "owner": "khennn",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/51370e9e-8839-487e-9060-eddd2580472b"
+    }
+  }
+}
